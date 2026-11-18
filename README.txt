@@ -4,7 +4,7 @@ BandwidthBuddy
 Shows where your drives are really plugged in, how fast each offload
 route is, and how to cable the cart for the fastest offload.
 
-Version 0.2.0. Newest download:
+Version 0.2.1. Newest download:
 https://github.com/Kunkles/BandwidthBuddy-releases/releases/latest
 
 

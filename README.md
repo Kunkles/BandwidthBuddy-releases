@@ -107,6 +107,22 @@ names belong to their owners. No affiliation or endorsement.
 BandwidthBuddy shows where your drives are plugged in, how fast each
 offload route is, and how to cable the cart.
 
+### 0.2.1 — 2026-11-18
+
+#### Fixed
+- **Sidebar names.** The screen list down the left showed only icons;
+  Guided Setup, Rig, Speed Tests, Results & Advice and Silverstack Plan
+  are named again.
+- **The walkthrough no longer covers the screen.** It sat over the
+  bottom-right corner, on top of the drives and buttons it was describing.
+  It is now a bar under the screen, which scrolls above it, and Next
+  stays in one place from page to page.
+
+#### Changed
+- A first window opens larger, with room for the Mac, a row of drives
+  and a chained drive under them. A window you have already sized keeps
+  its size.
+
 ### 0.2.0 — 2026-11-18
 
 #### Added
