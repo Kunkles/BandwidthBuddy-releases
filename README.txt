@@ -4,7 +4,7 @@ BandwidthBuddy
 Shows where your drives are really plugged in, how fast each offload
 route is, and how to cable the cart for the fastest offload.
 
-Version 0.1.0. Newest download:
+Version 0.2.0. Newest download:
 https://github.com/Kunkles/BandwidthBuddy-releases/releases/latest
 
 
@@ -18,6 +18,15 @@ read cards and to write its temporary test files.
 
 
 USING IT
+
+The first time it opens, BandwidthBuddy shows a short walkthrough on a
+practice cart. Nothing it does touches your drives. It is in the Help
+menu whenever you want it again.
+
+The one idea to keep: every Thunderbolt port on an Apple silicon Mac is
+its own bus. Give each busy device a port of its own if you can help
+it. Share a cable only where it costs nothing, like a card reader with
+one destination, or slow media on a hub.
 
 Guided Setup
   Start here. Plug in every backup drive and card reader, with a card in

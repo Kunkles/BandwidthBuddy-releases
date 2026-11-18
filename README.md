@@ -13,6 +13,16 @@ macOS 14 or later · made for Apple silicon · free · [all releases](../../rele
 
 ## What it does
 
+### One device per bus
+
+The idea the app is built on: every Thunderbolt port on an Apple silicon
+Mac is its own bus with its own bandwidth. Give each busy device its own
+port if you can help it. Two fast drives on one port, through a daisy
+chain, a dock or a hub, split a single cable. Sharing is fine where it
+costs nothing: a card reader with one destination, since one is read and
+the other written, or slow media on a hub. A short walkthrough on a
+practice cart shows all of it the first time the app opens.
+
 ### Guided setup
 
 The first screen walks you through it. Plug in every backup drive and
@@ -96,6 +106,27 @@ names belong to their owners. No affiliation or endorsement.
 
 BandwidthBuddy shows where your drives are plugged in, how fast each
 offload route is, and how to cable the cart.
+
+### 0.2.0 — 2026-11-18
+
+#### Added
+- **Walkthrough.** Opens on first launch and any time from Help ›
+  BandwidthBuddy Walkthrough. It runs on a practice cart, so nothing it
+  shows touches your drives, and takes you through Guided Setup, the rig,
+  a drive that keeps dropping, and the Silverstack rundown.
+- **One device per bus.** The walkthrough opens with the idea the whole
+  app is built on: every Thunderbolt port is its own bus, so give each
+  busy device its own port if you can help it, and share a cable only
+  where it costs nothing: a card reader with one destination, or slow
+  media on a hub. The Layout step in Guided Setup leads with the same
+  rule.
+
+#### Changed
+- The question about checking for updates automatically is now a page of
+  the walkthrough rather than a dialog on first launch. Skip the
+  walkthrough before reaching it and you are asked once when it closes.
+- Leaving the demo rig clears its drives straight away instead of when
+  the scan of your own finishes.
 
 ### 0.1.0 — 2026-11-18
 
